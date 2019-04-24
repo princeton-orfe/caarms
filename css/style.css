@@ -1,0 +1,124 @@
+img {
+height: initial;
+}
+
+header {
+padding-right: 30px;
+}
+
+.region-header, .region-header a, .region-header li a.is-active, .region-header .site-branding__text, .region-header .site-branding, .region-header .site-branding__text a, .region-header .site-branding a, .region-secondary-menu .menu-item a, .region-secondary-menu .menu-item a.is-active {
+margin: 0 auto;
+width: 100%;
+}
+
+.layout-container {
+max-width: initial;
+}
+
+.region-header .site-branding__logo {
+text-align: center;
+}
+
+.region-header .site-branding__name {
+border-bottom-width: 12px;
+border-bottom-style: solid;
+border-bottom-color: #f9a51d;
+}
+
+.region-header .site-branding__text a {
+line-height: 1.6em;
+font-size: 38px;
+}
+
+.region-header .site-branding__text {
+text-align: center;
+padding: 0;
+max-width: initial;
+}
+
+.region-header .site-branding__slogan {
+font-size: 2em;
+margin-top: 7px;
+word-spacing: 0.1em;
+font-weight: bold;
+}
+
+.region-breadcrumb {
+padding: 0;
+}
+
+.responsive-menus.responsified span.toggler {
+background-color lightgray;
+background: lightgray;
+box-shadow: none;
+padding: 20px;
+font-size: 1.8em;
+}
+
+#block-caarms-main-menu {
+background-color: lightgray;
+padding: 1rem 0 0 0;
+text-align: center;
+border-radius: 5px;
+}
+
+#block-caarms-main-menu .menu {
+text-align: center;
+font-size: 1.5em;
+font-weight: bold;
+}
+
+#block-caarms-main-menu ul.menu, #block-caarms-main-menu .menu-item {
+padding: 0;
+display: inline;
+padding: 0 .5em 0 .5em;
+}
+
+#block-caarms-main-menu a {
+border-bottom: none;
+}
+
+h1 {
+text-align: center;
+text-transform: uppercase;
+line-height: 1.42;
+font-size: 38px;
+font-weight: 400;
+margin-bottom: 1em;
+}
+
+
+.views-field-body, .node__content {
+font-size: 1.25em;
+}
+
+
+.site-footer .content a, .site-footer .content a .link, .site-footer .content a:hover {
+color: #0071b3;
+}
+
+.portrait {
+min-height: 500px;
+}
+
+#block-administrationmenu {
+border: 1px solid rgba(238, 96, 66, 1);
+background-color: rgba(238, 96, 66, 0.25);
+padding: 0;
+}
+
+#block-administrationmenu a {
+color: black;
+font-weight: 700;
+font-size: 1.5em;
+}
+
+#block-administrationmenu .menu-item {
+display: inline;
+margin-right: 20px;
+}
+
+#block-administrationmenu .menu {
+text-align:center;
+}
+
