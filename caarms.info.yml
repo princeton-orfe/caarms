@@ -1,13 +1,12 @@
-name: CAARMS
+name: caarms 
 type: theme
-description: A sub-theme of bartik.
-core: 8.x
-base theme: bartik
-
+description: 'This is a sub-theme of ORFE, which is a sub-theme Bartik.'
+core_version_requirement: 9.x
+base theme: orfe 
 libraries:
-        - caarms/global-styling
-
+  - caarms/styles
 regions:
+  branding: 'Branding'
   header: Header
   primary_menu: 'Primary menu'
   secondary_menu: 'Secondary menu'

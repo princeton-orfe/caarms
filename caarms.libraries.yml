@@ -1,4 +1,4 @@
-global-styling:
-  css:
-    component:
-      css/style.css: {}
+styles:
+        css:
+                theme:
+                        css/caarms.css: {}
