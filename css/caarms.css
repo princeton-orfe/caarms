@@ -1,7 +1,8 @@
 .menu--main {
   background-color: initial;
 }
-.menu--main a {
+
+#menubar .menu--main a {
   color: #6c0000;
 }
 
