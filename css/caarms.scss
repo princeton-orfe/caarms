@@ -1,18 +1,22 @@
+$menu-link-color: #6c0000;
+$menu-bg-color: #525355;
+$adm-menu-bg-color: rgb(255, 238, 205);
+$hdr-bg-image: linear-gradient(to bottom,#ffe489 0%,#ffffff 100%);
+
 #header {
-	background-image: linear-gradient(to bottom,#ffe489 0%,#ffffff 100%);
+	background-image: $hdr-bg-image;
 }
 
 .menu--main {
 	background-color: initial;
 }
 
-
 #menubar .menu--main a {
-		color: #6c0000;
+		color: $menu-link-color;
 }
 
 .menu--administrative-menu {
-	background-color: rgb(255, 238, 205);
+	background-color: $adm-menu-bg-color;
 }
 
 .session-title {
