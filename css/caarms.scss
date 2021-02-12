@@ -7,12 +7,14 @@ $hdr-bg-image: linear-gradient(to bottom,#ffe489 0%,#ffffff 100%);
 	background-image: $hdr-bg-image;
 }
 
-.menu--main {
-	background-color: initial;
-}
 
-#menubar .menu--main a {
-		color: $menu-link-color;
+#menubar {
+	.menu--main {
+		background-color: $menu-bg-color;
+		 a {
+			color: $menu-link-color;
+		}
+	}
 }
 
 .menu--administrative-menu {
