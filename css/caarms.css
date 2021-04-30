@@ -1,5 +1,5 @@
 #header {
-  background-image: linear-gradient(to bottom, #ffe489 0%, #ffffff 100%);
+  background-image: linear-gradient(to right, #ffe489 0%, #ffffff 100%);
 }
 
 #menubar .menu--main {
@@ -22,6 +22,12 @@
 }
 .participant .views-field-field-participant-photo {
   flex-shrink: 0;
+}
+.participant .panelist-name-and-title {
+  background-image: linear-gradient(to right, #ffe489 0%, #ffffff 100%);
+  line-height: 3em;
+  font-size: 1.5em;
+  text-indent: 1em;
 }
 
 /*# sourceMappingURL=caarms.css.map */

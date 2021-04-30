@@ -1,7 +1,7 @@
 $menu-link-color: #6c0000;
 $menu-bg-color: white;
 $adm-menu-bg-color: rgb(255, 238, 205);
-$hdr-bg-image: linear-gradient(to bottom,#ffe489 0%,#ffffff 100%);
+$hdr-bg-image: linear-gradient(to right,#ffe489 0%,#ffffff 100%);
 
 #header {
 	background-image: $hdr-bg-image;
@@ -29,6 +29,12 @@ font-size: 2em;
 	display: flex;
 	.views-field-field-participant-photo {
 		flex-shrink: 0;
+	}
+	.panelist-name-and-title {
+		background-image: linear-gradient(to right,#ffe489 0%,#ffffff 100%);
+		line-height: 3em;
+		font-size: 1.5em;
+		text-indent: 1em;
 	}
 }
 
