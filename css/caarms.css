@@ -17,4 +17,11 @@
   font-size: 2em;
 }
 
+.participant {
+  display: flex;
+}
+.participant .views-field-field-participant-photo {
+  flex-shrink: 0;
+}
+
 /*# sourceMappingURL=caarms.css.map */

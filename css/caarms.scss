@@ -24,3 +24,11 @@ $hdr-bg-image: linear-gradient(to bottom,#ffe489 0%,#ffffff 100%);
 .session-title {
 font-size: 2em;
 }
+
+.participant {
+	display: flex;
+	.views-field-field-participant-photo {
+		flex-shrink: 0;
+	}
+}
+
