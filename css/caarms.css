@@ -1,5 +1,6 @@
 #header {
   background-image: linear-gradient(to right, #ffe489 0%, #ffffff 100%);
+  padding: 0.5em 0 0.5em 0;
 }
 
 #menubar .menu--main {
