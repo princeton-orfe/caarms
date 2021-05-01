@@ -24,7 +24,7 @@
 }
 
 .path-frontpage .view-all-sessions a {
-  color: orangered;
+  color: #f15724;
 }
 .path-frontpage .view-all-sessions .session-datetime {
   font-size: 1.4em;
@@ -34,6 +34,13 @@
   border: none;
   margin: 0;
   padding: 0;
+}
+.path-frontpage .view-all-sessions .view-panelist-photo-row .view-content {
+  display: flex;
+}
+.path-frontpage .view-all-sessions .view-panelist-photo-row .panelist-photo img {
+  max-width: 60%;
+  border-radius: 50%;
 }
 
 .session-title {

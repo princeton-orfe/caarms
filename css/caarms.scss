@@ -38,7 +38,7 @@ $breakpoint: 720px;
 
 .path-frontpage .view-all-sessions {
 	a {
-		color: orangered;
+		color: rgb(241, 87, 36);
 	}
 	.session-datetime {
 		font-size: 1.4em;
@@ -48,6 +48,17 @@ $breakpoint: 720px;
 		border: none;
 		margin: 0;
 		padding: 0;
+	}
+	.view-panelist-photo-row {
+		.view-content {
+			display: flex;
+		}
+		.panelist-photo {
+			img {
+				max-width: 60%;
+				border-radius: 50%;
+			}
+		}
 	}
 }
 
