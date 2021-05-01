@@ -10,6 +10,16 @@
   color: #6c0000;
 }
 
+.site-branding__text a {
+  text-shadow: 0px 1px #e77550;
+  color: red;
+}
+
+.site-branding__slogan {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
 .menu--administrative-menu {
   background-color: #ffeecd;
 }
