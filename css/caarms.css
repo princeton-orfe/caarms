@@ -37,7 +37,7 @@
 .participant {
   display: flex;
 }
-@media (max-width: 62em) {
+@media (max-width: 720px) {
   .participant {
     flex-flow: column;
   }
