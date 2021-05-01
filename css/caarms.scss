@@ -28,6 +28,9 @@ font-size: 2em;
 
 .participant {
 	display: flex;
+	.views-row {
+		margin-bottom: 1em;
+	}
 	.views-field-field-participant-photo {
 		flex-shrink: 0;
 	}
@@ -38,4 +41,3 @@ font-size: 2em;
 		text-indent: 1em;
 	}
 }
-
