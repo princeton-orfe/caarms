@@ -14,9 +14,12 @@
   color: #6c0000;
 }
 
+.site-branding__name {
+  font-size: 2.75em;
+}
+
 .site-branding__slogan {
   font-size: 1.25em;
-  font-weight: bold;
 }
 
 .menu--administrative-menu {
