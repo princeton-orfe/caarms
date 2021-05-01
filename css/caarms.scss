@@ -52,6 +52,13 @@ font-size: 2em;
 		text-indent: 1em;
 		text-shadow: 0px 1px #e77550;
 		color:rgb(237, 125, 0);
-
+	}
+	.panelist-homeinst {
+		padding: 1em 0 1em 1.5em;
+		border-image: linear-gradient(to left, white 1%, #ffe489 100%) 100% 0 100% 0/3px 0 3px 0 stretch;
+		font-size: 1.2em;
+	}
+	.views-field-field-participant-biography {
+		padding: 1em 0 0 1em;
 	}
 }
