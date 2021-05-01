@@ -30,6 +30,11 @@
   font-size: 1.4em;
   color: gray;
 }
+.path-frontpage .view-all-sessions .views-field-field-session-des {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
 
 .session-title {
   font-size: 2em;
