@@ -37,6 +37,12 @@ $breakpoint: 720px;
 
 
 .path-frontpage .view-all-sessions {
+	.view-content {
+		.views-row {
+			display: flex;
+		}
+	}
+
 	a {
 		color: rgb(241, 87, 36);
 	}

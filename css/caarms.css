@@ -23,6 +23,9 @@
   background-color: #ffeecd;
 }
 
+.path-frontpage .view-all-sessions .view-content .views-row {
+  display: flex;
+}
 .path-frontpage .view-all-sessions a {
   color: #f15724;
 }
