@@ -23,6 +23,14 @@
   background-color: #ffeecd;
 }
 
+.path-frontpage .view-all-sessions a {
+  color: orangered;
+}
+.path-frontpage .view-all-sessions .session-datetime {
+  font-size: 1.4em;
+  color: gray;
+}
+
 .session-title {
   font-size: 2em;
 }

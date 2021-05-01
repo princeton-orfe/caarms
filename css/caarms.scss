@@ -35,6 +35,17 @@ $breakpoint: 720px;
 	background-color: $adm-menu-bg-color;
 }
 
+
+.path-frontpage .view-all-sessions {
+	a {
+		color: orangered;
+	}
+	.session-datetime {
+		font-size: 1.4em;
+		color: gray;
+	}
+}
+
 .session-title {
 font-size: 2em;
 }
