@@ -41,6 +41,7 @@ h2.field-content.session-datetime {
 
 .participant {
   display: flex;
+  margin-bottom: 2em;
 }
 @media (max-width: 720px) {
   .participant {
