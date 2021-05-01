@@ -2,6 +2,7 @@ $menu-link-color: #6c0000;
 $menu-bg-color: white;
 $adm-menu-bg-color: rgb(255, 238, 205);
 $hdr-bg-image: linear-gradient(to right,#ffe489 0%,#ffffff 100%);
+$breakpoint: 850px;
 
 #header {
 	background-image: $hdr-bg-image;
@@ -13,7 +14,6 @@ $hdr-bg-image: linear-gradient(to right,#ffe489 0%,#ffffff 100%);
 }
 
 }
-
 
 #menubar {
 	.menu--main {
@@ -48,6 +48,10 @@ font-size: 2em;
 
 .participant {
 	display: flex;
+	
+	@media (max-width: 62em) {
+		flex-flow: column;
+	}
 
 	.views-field-field-participant-photo {
 		flex-shrink: 0;

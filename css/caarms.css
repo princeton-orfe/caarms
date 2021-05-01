@@ -37,6 +37,11 @@
 .participant {
   display: flex;
 }
+@media (max-width: 62em) {
+  .participant {
+    flex-flow: column;
+  }
+}
 .participant .views-field-field-participant-photo {
   flex-shrink: 0;
 }
