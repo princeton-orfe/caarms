@@ -51,6 +51,12 @@ h2.field-content.session-datetime {
 .participant .views-field-field-participant-photo {
   flex-shrink: 0;
 }
+@media (max-width: 720px) {
+  .participant .views-field-field-participant-photo .panelist-photo {
+    text-align: center;
+    background-image: radial-gradient(circle 250px, orange, white);
+  }
+}
 .participant .panelist-name-and-title {
   background-image: linear-gradient(to right, #ffe489 0%, #ffffff 100%);
   line-height: 3em;

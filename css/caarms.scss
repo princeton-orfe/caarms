@@ -61,6 +61,12 @@ h2.field-content.session-datetime {
 
 	.views-field-field-participant-photo {
 		flex-shrink: 0;
+		.panelist-photo {
+				@media (max-width: $breakpoint) {
+				text-align: center;
+				background-image: radial-gradient(circle 250px, orange, white);
+			}
+		}
 	}
 	.panelist-name-and-title {
 		background-image: linear-gradient(to right,#ffe489 0%,#ffffff 100%);
