@@ -27,6 +27,13 @@
   font-size: 2em;
 }
 
+.views-field-field-session-des {
+  margin: 2em;
+  border-image: radial-gradient(red, #fae042) 1;
+  padding: 2em;
+  border-width: 3px;
+}
+
 .participant {
   display: flex;
 }

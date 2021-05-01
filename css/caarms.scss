@@ -39,6 +39,13 @@ $hdr-bg-image: linear-gradient(to right,#ffe489 0%,#ffffff 100%);
 font-size: 2em;
 }
 
+.views-field-field-session-des {
+	margin: 2em;
+	border-image: radial-gradient(red, rgb(250,224,66)) 1;;
+	padding: 2em;
+	border-width: 3px;
+}
+
 .participant {
 	display: flex;
 
