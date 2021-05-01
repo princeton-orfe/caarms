@@ -21,9 +21,6 @@
 .participant {
   display: flex;
 }
-.participant .views-row {
-  margin-bottom: 1em;
-}
 .participant .views-field-field-participant-photo {
   flex-shrink: 0;
 }
