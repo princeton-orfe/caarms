@@ -27,11 +27,16 @@
   font-size: 2em;
 }
 
+h2.field-content.session-datetime {
+  margin-top: 0;
+}
+
 .views-field-field-session-des {
   margin: 2em;
-  border-image: radial-gradient(red, #fae042) 1;
   padding: 2em;
+  border-image: radial-gradient(red, #fae042) 1;
   border-width: 3px;
+  border: 3px solid #fae042;
 }
 
 .participant {
@@ -56,6 +61,7 @@
 .participant .panelist-homeinst {
   padding: 0.5em 0 0.5em 1em;
   border-image: linear-gradient(to left, white 1%, #ffe489 100%) 100% 0 100% 0/3px 0 3px 0 stretch;
+  border-bottom: 3px solid #ffe489;
   font-size: 1.2em;
 }
 .participant .views-field-field-participant-biography {
