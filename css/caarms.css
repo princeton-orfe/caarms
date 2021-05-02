@@ -26,6 +26,9 @@
   background-color: #ffeecd;
 }
 
+.path-frontpage .view-all-sessions > .view-content > .view-row {
+  margin-bottom: 2em;
+}
 .path-frontpage .view-all-sessions .participant {
   margin-bottom: 0;
 }

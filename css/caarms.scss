@@ -38,6 +38,11 @@ $breakpoint: 720px;
 
 
 .path-frontpage .view-all-sessions {
+
+	>.view-content>.view-row {
+		margin-bottom: 2em;
+	}
+
 	.participant {
 		margin-bottom: 0;
 	}
