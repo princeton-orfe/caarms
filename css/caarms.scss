@@ -43,6 +43,12 @@ body {
 
 .path-frontpage .view-all-sessions {
 
+	.panelist-photo {
+		@media (max-width: $breakpoint) {
+			background-image: none;
+		}
+	}
+
 	.session-info-combined {
 		flex-shrink: 0;
 		background: white;
