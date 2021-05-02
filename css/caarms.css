@@ -125,4 +125,8 @@ h2.field-content.session-datetime {
   border-color: none;
 }
 
+.site-footer .content a {
+  color: rgba(175, 0, 0, 0.8);
+}
+
 /*# sourceMappingURL=caarms.css.map */
