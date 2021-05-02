@@ -4,7 +4,7 @@ body {
 
 #header {
   background-image: linear-gradient(to right, #ffe489 0%, #ffffff 100%);
-  padding: 1em 0 1em 1em;
+  padding: 1.5em 0 1.5em 1em;
 }
 #header .site-branding__text a {
   text-shadow: 0px 1px #e77550;
@@ -30,8 +30,19 @@ body {
   background-color: #ffeecd;
 }
 
+.path-frontpage .view-all-sessions .session-info-combined {
+  flex-shrink: 0;
+  background: white;
+  padding: 1em;
+}
 .path-frontpage .view-all-sessions .panelist-photo-row {
   flex-basis: 40%;
+}
+@media (max-width: 720px) {
+  .path-frontpage .view-all-sessions .panelist-photo-row {
+    flex-basis: 100%;
+    text-align: center;
+  }
 }
 .path-frontpage .view-all-sessions > .view-content > .view-row {
   margin-bottom: 2em;
@@ -42,6 +53,11 @@ body {
 .path-frontpage .view-all-sessions .view-content .views-row {
   display: flex;
   align-items: center;
+}
+@media (max-width: 720px) {
+  .path-frontpage .view-all-sessions .view-content .views-row {
+    flex-flow: column;
+  }
 }
 .path-frontpage .view-all-sessions a {
   color: #f15724;

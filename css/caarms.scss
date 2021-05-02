@@ -10,7 +10,7 @@ body {
 
 #header {
 	background-image: $hdr-bg-image;
-	padding: 1em 0 1em 1em;
+	padding: 1.5em 0 1.5em 1em;
 	
 	.site-branding__text a {
 		text-shadow: 0px 1px #e77550;
@@ -43,8 +43,18 @@ body {
 
 .path-frontpage .view-all-sessions {
 
+	.session-info-combined {
+		flex-shrink: 0;
+		background: white;
+		padding: 1em;
+	}
+
 	.panelist-photo-row {
 		flex-basis: 40%;
+		@media(max-width: $breakpoint) {
+			flex-basis: 100%;
+			text-align: center;
+		}
 	}
 
 	>.view-content>.view-row {
@@ -58,6 +68,9 @@ body {
 		.views-row {
 			display: flex;
 			align-items: center;
+			@media(max-width: $breakpoint) {
+				flex-flow: column;
+			}
 		}
 	}
 
