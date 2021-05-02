@@ -26,6 +26,9 @@
   background-color: #ffeecd;
 }
 
+.path-frontpage .view-all-sessions .panelist-photo-row {
+  flex-basis: 40%;
+}
 .path-frontpage .view-all-sessions > .view-content > .view-row {
   margin-bottom: 2em;
 }

@@ -39,6 +39,10 @@ $breakpoint: 720px;
 
 .path-frontpage .view-all-sessions {
 
+	.panelist-photo-row {
+		flex-basis: 40%;
+	}
+
 	>.view-content>.view-row {
 		margin-bottom: 2em;
 	}
