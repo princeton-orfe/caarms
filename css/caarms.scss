@@ -38,9 +38,13 @@ $breakpoint: 720px;
 
 
 .path-frontpage .view-all-sessions {
+	.participant {
+		margin-bottom: 0;
+	}
 	.view-content {
 		.views-row {
 			display: flex;
+			align-items: center;
 		}
 	}
 
