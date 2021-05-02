@@ -30,6 +30,11 @@ body {
   background-color: #ffeecd;
 }
 
+@media (max-width: 720px) {
+  .path-frontpage .view-all-sessions .panelist-photo {
+    background-image: none;
+  }
+}
 .path-frontpage .view-all-sessions .session-info-combined {
   flex-shrink: 0;
   background: white;
