@@ -20,6 +20,10 @@ body {
 }
 
 #menubar {
+
+	border-image: linear-gradient(to left,white 1%,#ffe489 100%) 100% 0 100% 0/3px 0 3px 0 stretch;
+	border-bottom: 3px solid #ffe489;
+
 	.menu--main {
 		background-color: $menu-bg-color;
 		 a {
