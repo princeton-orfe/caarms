@@ -28,6 +28,11 @@ body {
 	}
 }
 
+#branding {
+	max-width: 1290px;
+	margin: 0 auto;
+}
+
 .site-branding__name {
 	font-size: 2.75em;
 }
@@ -51,7 +56,7 @@ body {
 
 	.session-info-combined {
 		flex-shrink: 0;
-		background: white;
+		background: rgb(255,255,255,0.8);
 		padding: 1em;
 	}
 

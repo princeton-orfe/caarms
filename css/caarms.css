@@ -18,6 +18,11 @@ body {
   color: #6c0000;
 }
 
+#branding {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
 .site-branding__name {
   font-size: 2.75em;
 }
@@ -37,7 +42,7 @@ body {
 }
 .path-frontpage .view-all-sessions .session-info-combined {
   flex-shrink: 0;
-  background: white;
+  background: rgba(255, 255, 255, 0.8);
   padding: 1em;
 }
 .path-frontpage .view-all-sessions .panelist-photo-row {
