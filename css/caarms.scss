@@ -4,6 +4,10 @@ $adm-menu-bg-color: rgb(255, 238, 205);
 $hdr-bg-image: linear-gradient(to right,#ffe489 0%,#ffffff 100%);
 $breakpoint: 720px;
 
+body {
+	background: white;
+}
+
 #header {
 	background-image: $hdr-bg-image;
 	padding: 1em 0 1em 1em;
