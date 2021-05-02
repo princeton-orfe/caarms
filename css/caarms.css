@@ -119,4 +119,10 @@ h2.field-content.session-datetime {
   background-image: linear-gradient(to right, white, #ebc05a);
 }
 
+.site-footer__bottom {
+  margin-top: 0;
+  border-top: none;
+  border-color: none;
+}
+
 /*# sourceMappingURL=caarms.css.map */

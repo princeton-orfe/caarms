@@ -141,3 +141,9 @@ h2.field-content.session-datetime {
 .site-footer {
 	background-image: linear-gradient(to right, white, rgb(235, 192, 90));
 }
+
+.site-footer__bottom {
+	margin-top: 0;
+	border-top: none;
+	border-color: none;
+}
