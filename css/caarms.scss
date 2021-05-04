@@ -184,3 +184,20 @@ h2.field-content.session-datetime {
 	}
 }
 
+
+.node--type-event-date {
+	.field--type-datetime, .field--type-string, .field--type-link {
+		margin-bottom: 1em;
+	}
+	.field--name-field-conferenc>.field__label {
+		font-size: 2em;
+		margin-top: 1em;
+	}
+	
+	.field--type-entity-reference {
+	font-family: 'Noto Sans';
+		.field__label {
+			font-weight: bold;
+		}
+	}
+}
