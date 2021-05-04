@@ -186,7 +186,7 @@ h2.field-content.session-datetime {
 
 
 .node--type-event-date {
-	.field--type-datetime, .field--type-string, .field--type-link {
+	.field--type-datetime, .field--type-string, .field--type-link, .field--type-time, .field--type-list-string {
 		margin-bottom: 1em;
 	}
 	.field--name-field-conferenc>.field__label {
@@ -198,6 +198,7 @@ h2.field-content.session-datetime {
 	font-family: 'Noto Sans';
 		.field__label {
 			font-weight: bold;
+			font-size: 1.071em;
 		}
 	}
 }

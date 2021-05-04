@@ -158,7 +158,7 @@ h2.field-content.session-datetime {
   padding: 1em 0 0 1em;
 }
 
-.node--type-event-date .field--type-datetime, .node--type-event-date .field--type-string, .node--type-event-date .field--type-link {
+.node--type-event-date .field--type-datetime, .node--type-event-date .field--type-string, .node--type-event-date .field--type-link, .node--type-event-date .field--type-time, .node--type-event-date .field--type-list-string {
   margin-bottom: 1em;
 }
 .node--type-event-date .field--name-field-conferenc > .field__label {
@@ -170,6 +170,7 @@ h2.field-content.session-datetime {
 }
 .node--type-event-date .field--type-entity-reference .field__label {
   font-weight: bold;
+  font-size: 1.071em;
 }
 
 /*# sourceMappingURL=caarms.css.map */
