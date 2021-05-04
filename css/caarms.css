@@ -10,6 +10,12 @@ body {
   text-shadow: 0px 1px #e77550;
   color: red;
 }
+#header .site-branding__text a .site-branding__name {
+  font-size: 2.75em;
+}
+#header .site-branding__text a .site-branding__slogan {
+  font-size: 1.25em;
+}
 
 #menubar {
   border-image: linear-gradient(to left, white 1%, #ffe489 100%) 100% 0 100% 0/3px 0 3px 0 stretch;
@@ -27,16 +33,18 @@ body {
   margin: 0 auto;
 }
 
-.site-branding__name {
-  font-size: 2.75em;
+.site-footer {
+  background-image: linear-gradient(to right, #ffe489 0%, #ffffff 100%);
+  padding: 1em 0 1em 0;
+}
+.site-footer .content a {
+  color: rgba(175, 0, 0, 0.8);
 }
 
-.site-branding__slogan {
-  font-size: 1.25em;
-}
-
-.menu--administrative-menu {
-  background-color: #ffeecd;
+.site-footer__bottom {
+  margin-top: 0;
+  border-top: none;
+  border-color: none;
 }
 
 .view-all-sessions > .view-content > .views-row {
@@ -148,21 +156,6 @@ h2.field-content.session-datetime {
 }
 .participant .views-field-field-participant-biography {
   padding: 1em 0 0 1em;
-}
-
-.site-footer {
-  background-image: linear-gradient(to right, #ffe489 0%, #ffffff 100%);
-  padding: 1em 0 1em 0;
-}
-
-.site-footer__bottom {
-  margin-top: 0;
-  border-top: none;
-  border-color: none;
-}
-
-.site-footer .content a {
-  color: rgba(175, 0, 0, 0.8);
 }
 
 /*# sourceMappingURL=caarms.css.map */

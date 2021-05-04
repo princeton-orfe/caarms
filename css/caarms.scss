@@ -15,6 +15,13 @@ body {
 	.site-branding__text a {
 		text-shadow: 0px 1px #e77550;
 		color:red;
+	.site-branding__name {
+		font-size: 2.75em;
+	}
+
+	.site-branding__slogan {
+		font-size: 1.25em;
+	}
 }
 
 }
@@ -37,17 +44,22 @@ body {
 	margin: 0 auto;
 }
 
-.site-branding__name {
-	font-size: 2.75em;
+.site-footer {
+	background-image: linear-gradient(to right,#ffe489 0%,#ffffff 100%);
+	padding: 1em 0 1em 0;
+	.content a {
+	color: rgba(175, 0, 0, 0.8);
+	}
 }
 
-.site-branding__slogan {
-	font-size: 1.25em;
+.site-footer__bottom {
+	margin-top: 0;
+	border-top: none;
+	border-color: none;
 }
 
-.menu--administrative-menu {
-	background-color: $adm-menu-bg-color;
-}
+
+
 
 
 .view-all-sessions>.view-content>.views-row {
@@ -172,17 +184,3 @@ h2.field-content.session-datetime {
 	}
 }
 
-.site-footer {
-	background-image: linear-gradient(to right,#ffe489 0%,#ffffff 100%);
-	padding: 1em 0 1em 0;
-}
-
-.site-footer__bottom {
-	margin-top: 0;
-	border-top: none;
-	border-color: none;
-}
-
-.site-footer .content a {
-	color: rgba(175, 0, 0, 0.8);
-}
