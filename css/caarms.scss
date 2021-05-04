@@ -186,12 +186,14 @@ h2.field-content.session-datetime {
 
 
 .node--type-event-date {
+
 	.field--type-datetime, .field--type-string, .field--type-link, .field--type-time, .field--type-list-string {
 		margin-bottom: 1em;
 	}
-	.field--name-field-conferenc>.field__label {
+	.field--name-field-conferenc.field--type-entity-reference>.field__label {
 		font-size: 2em;
 		margin-top: 1em;
+		font-weight: normal;
 	}
 	
 	.field--type-entity-reference {
