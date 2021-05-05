@@ -65,7 +65,9 @@ body {
 		text-align: center;
 		.titletheme {
 			font-size: 3em;
-			color: #800000;
+			a {
+				color: #800000;
+			}
 		}
 		.day-datetime {
 			font-size: 1.75em;

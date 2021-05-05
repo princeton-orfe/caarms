@@ -53,6 +53,8 @@ body {
 }
 .path-frontpage .view-all-sessions .day-theme-and-date .titletheme {
   font-size: 3em;
+}
+.path-frontpage .view-all-sessions .day-theme-and-date .titletheme a {
   color: #800000;
 }
 .path-frontpage .view-all-sessions .day-theme-and-date .day-datetime {
