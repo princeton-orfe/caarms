@@ -60,6 +60,10 @@ body {
 
 .path-frontpage .view-all-sessions {
 
+	.views-field-field-event-date {
+		flex-grow: 1;
+	}
+
 	.speaker-photo-row {
 		flex-basis: 60%;
 	}
