@@ -52,13 +52,13 @@ body {
   text-align: center;
 }
 .path-frontpage .view-all-sessions .day-theme-and-date .titletheme {
-  font-size: 3em;
+  font-size: 2em;
 }
 .path-frontpage .view-all-sessions .day-theme-and-date .titletheme a {
   color: #800000;
 }
 .path-frontpage .view-all-sessions .day-theme-and-date .day-datetime {
-  font-size: 1.75em;
+  font-size: 1.5em;
   color: gray;
 }
 .path-frontpage .view-all-sessions .speaker-photo-row {
@@ -70,8 +70,18 @@ body {
   display: flex;
   align-items: center;
 }
+@media (max-width: 720px) {
+  .path-frontpage .view-all-sessions > .view-content > .date-listing {
+    flex-flow: column;
+  }
+}
 .path-frontpage .view-all-sessions > .view-content > .date-listing:nth-child(odd) {
   flex-flow: row-reverse;
+}
+@media (max-width: 720px) {
+  .path-frontpage .view-all-sessions > .view-content > .date-listing:nth-child(odd) {
+    flex-flow: column;
+  }
 }
 .path-frontpage .view-all-sessions .view-featured-speaker-photos > .view-content {
   display: flex;

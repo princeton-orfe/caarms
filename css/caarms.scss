@@ -64,13 +64,13 @@ body {
 		flex-grow: 1;
 		text-align: center;
 		.titletheme {
-			font-size: 3em;
+			font-size: 2em;
 			a {
 				color: #800000;
 			}
 		}
 		.day-datetime {
-			font-size: 1.75em;
+			font-size: 1.5em;
 			color: gray;
 		}
 	}
@@ -84,8 +84,14 @@ body {
 		padding-bottom: 1em;
 		display: flex;
 		align-items: center;
+		@media (max-width: $breakpoint) {
+			flex-flow: column;
+		}
 		&:nth-child(odd) {
 			flex-flow: row-reverse;
+			@media (max-width: $breakpoint) {
+				flex-flow: column;
+			}
 		}
 	}
 
