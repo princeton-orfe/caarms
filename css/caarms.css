@@ -56,7 +56,7 @@ body {
   display: flex;
   align-items: center;
 }
-.path-frontpage .view-all-sessions > .view-content > .date-listing :nth-child(odd) {
+.path-frontpage .view-all-sessions > .view-content > .date-listing:nth-child(odd) {
   flex-flow: row-reverse;
 }
 .path-frontpage .view-all-sessions .view-featured-speaker-photos > .view-content {
