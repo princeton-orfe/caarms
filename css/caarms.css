@@ -47,8 +47,17 @@ body {
   border-color: none;
 }
 
-.path-frontpage .view-all-sessions .views-field-field-event-date {
+.path-frontpage .view-all-sessions .day-theme-and-date {
   flex-grow: 1;
+  text-align: center;
+}
+.path-frontpage .view-all-sessions .day-theme-and-date .titletheme {
+  font-size: 3em;
+  color: #800000;
+}
+.path-frontpage .view-all-sessions .day-theme-and-date .day-datetime {
+  font-size: 1.75em;
+  color: gray;
 }
 .path-frontpage .view-all-sessions .speaker-photo-row {
   flex-basis: 60%;
@@ -105,8 +114,8 @@ h2.field-content.session-datetime {
   line-height: 3em;
   font-size: 1.5em;
   text-indent: 1em;
-  text-shadow: 0px 1px #e77550;
-  color: #ed7d00;
+  text-shadow: 0px 2px #e77550;
+  color: black;
 }
 .participant .panelist-homeinst {
   padding: 0.5em 0 0.5em 1em;

@@ -60,8 +60,17 @@ body {
 
 .path-frontpage .view-all-sessions {
 
-	.views-field-field-event-date {
+	.day-theme-and-date {
 		flex-grow: 1;
+		text-align: center;
+		.titletheme {
+			font-size: 3em;
+			color: #800000;
+		}
+		.day-datetime {
+			font-size: 1.75em;
+			color: gray;
+		}
 	}
 
 	.speaker-photo-row {
@@ -121,8 +130,8 @@ h2.field-content.session-datetime {
 		line-height: 3em;
 		font-size: 1.5em;
 		text-indent: 1em;
-		text-shadow: 0px 1px #e77550;
-		color:rgb(237, 125, 0);
+		text-shadow: 0px 2px #e77550;
+		color:black;
 	}
 	.panelist-homeinst {
 		padding: 0.5em 0 0.5em 1em;
