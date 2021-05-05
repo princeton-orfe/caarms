@@ -59,13 +59,21 @@ body {
 }
 
 .path-frontpage .view-all-sessions {
->.view-content>.views-row {
-	border-image: linear-gradient(to left,white 1%,#ffe489 100%) 0% 0 100% 0/1px 0 3px 0 stretch;
-	padding-bottom: 1em;
-}
-.view-featured-speaker-photos>.view-content {
-	display: flex;
-}
+
+	.speaker-photo-row {
+		flex-basis: 60%;
+	}
+
+	>.view-content>.date-listing {
+		border-image: linear-gradient(to left,white 1%,#ffe489 100%) 0% 0 100% 0/1px 0 3px 0 stretch;
+		padding-bottom: 1em;
+		display: flex;
+		align-items: center;
+	}
+
+	.view-featured-speaker-photos>.view-content {
+		display: flex;
+	}
 }
 
 .session-title {
