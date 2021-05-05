@@ -58,78 +58,11 @@ body {
 	border-color: none;
 }
 
-
-
-
-
-.view-all-sessions>.view-content>.views-row {
+.path-frontpage .view-all-sessions {
+>.view-content>.views-row {
 	border-image: linear-gradient(to left,white 1%,#ffe489 100%) 0% 0 100% 0/1px 0 3px 0 stretch;
 	padding-bottom: 1em;
 }
-
-.path-frontpage .view-all-sessions {
-
-
-	.panelist-photo {
-		@media (max-width: $breakpoint) {
-			background-image: none;
-		}
-	}
-
-	.session-info-combined {
-		flex-shrink: 0;
-		background: rgb(255,255,255,0.8);
-		padding: 1em;
-	}
-
-	.panelist-photo-row {
-		flex-basis: 40%;
-		@media(max-width: $breakpoint) {
-			flex-basis: 100%;
-			text-align: center;
-		}
-	}
-
-	>.view-content>.view-row {
-		margin-bottom: 2em;
-	}
-
-	.participant {
-		margin-bottom: 0;
-	}
-	.view-content {
-		.views-row {
-			display: flex;
-			align-items: center;
-			@media(max-width: $breakpoint) {
-				flex-flow: column;
-			}
-		}
-	}
-
-	a {
-		color: rgb(241, 87, 36);
-	}
-	.session-datetime {
-		font-size: 1.4em;
-		color: gray;
-	}
-	.views-field-field-session-des {
-		border: none;
-		margin: 0;
-		padding: 0;
-	}
-	.view-panelist-photo-row {
-		.view-content {
-			display: flex;
-		}
-		.panelist-photo {
-			img {
-				max-width: 60%;
-				border-radius: 50%;
-			}
-		}
-	}
 }
 
 .session-title {
@@ -183,7 +116,6 @@ h2.field-content.session-datetime {
 		padding: 1em 0 0 1em;
 	}
 }
-
 
 .node--type-event-date {
 

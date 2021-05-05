@@ -47,63 +47,9 @@ body {
   border-color: none;
 }
 
-.view-all-sessions > .view-content > .views-row {
+.path-frontpage .view-all-sessions > .view-content > .views-row {
   border-image: linear-gradient(to left, white 1%, #ffe489 100%) 0% 0 100% 0/1px 0 3px 0 stretch;
   padding-bottom: 1em;
-}
-
-@media (max-width: 720px) {
-  .path-frontpage .view-all-sessions .panelist-photo {
-    background-image: none;
-  }
-}
-.path-frontpage .view-all-sessions .session-info-combined {
-  flex-shrink: 0;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 1em;
-}
-.path-frontpage .view-all-sessions .panelist-photo-row {
-  flex-basis: 40%;
-}
-@media (max-width: 720px) {
-  .path-frontpage .view-all-sessions .panelist-photo-row {
-    flex-basis: 100%;
-    text-align: center;
-  }
-}
-.path-frontpage .view-all-sessions > .view-content > .view-row {
-  margin-bottom: 2em;
-}
-.path-frontpage .view-all-sessions .participant {
-  margin-bottom: 0;
-}
-.path-frontpage .view-all-sessions .view-content .views-row {
-  display: flex;
-  align-items: center;
-}
-@media (max-width: 720px) {
-  .path-frontpage .view-all-sessions .view-content .views-row {
-    flex-flow: column;
-  }
-}
-.path-frontpage .view-all-sessions a {
-  color: #f15724;
-}
-.path-frontpage .view-all-sessions .session-datetime {
-  font-size: 1.4em;
-  color: gray;
-}
-.path-frontpage .view-all-sessions .views-field-field-session-des {
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-.path-frontpage .view-all-sessions .view-panelist-photo-row .view-content {
-  display: flex;
-}
-.path-frontpage .view-all-sessions .view-panelist-photo-row .panelist-photo img {
-  max-width: 60%;
-  border-radius: 50%;
 }
 
 .session-title {
