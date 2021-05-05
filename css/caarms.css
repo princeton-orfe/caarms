@@ -83,6 +83,9 @@ body {
     flex-flow: column;
   }
 }
+.path-frontpage .view-all-sessions > .view-content > .date-listing.views-row:nth-child(n+2) {
+  padding-top: 1em;
+}
 .path-frontpage .view-all-sessions .view-featured-speaker-photos > .view-content {
   display: flex;
 }
