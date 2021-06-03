@@ -22,7 +22,7 @@ body {
 	.site-branding__text {
 		a {
 		color:#0026F5;
-		font-size: 0.9em;
+		font-size: 0.8em;
 		}
 	.site-branding__name {
 		font-size: 2.75em;
@@ -81,17 +81,18 @@ body {
 		flex-grow: 1;
 		text-align: center;
 		.themelabel {
+			font-size: 1.7em;
 			color: red;
 			font-weight: bold;
 		}
 		.titletheme {
-			font-size: 2em;
+			font-size: 1.7em;
 			a {
 				color: #0026F5;
 			}
 		}
 		.day-datetime {
-			font-size: 1.5em;
+			font-size: 1.2em;
 			color: black;
 			font-weight: bold;
 		}

@@ -14,7 +14,7 @@ body {
 }
 #header .site-branding__text a {
   color: #0026F5;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 #header .site-branding__text .site-branding__name {
   font-size: 2.75em;
@@ -66,17 +66,18 @@ body {
   text-align: center;
 }
 .path-frontpage .view-all-sessions .day-theme-and-date .themelabel {
+  font-size: 1.7em;
   color: red;
   font-weight: bold;
 }
 .path-frontpage .view-all-sessions .day-theme-and-date .titletheme {
-  font-size: 2em;
+  font-size: 1.7em;
 }
 .path-frontpage .view-all-sessions .day-theme-and-date .titletheme a {
   color: #0026F5;
 }
 .path-frontpage .view-all-sessions .day-theme-and-date .day-datetime {
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: black;
   font-weight: bold;
 }
