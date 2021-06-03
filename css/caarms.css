@@ -6,6 +6,12 @@ body {
   background-image: none;
   padding: 1.5em 1em 1.5em 1em;
 }
+@media (max-width: 720px) {
+  #header .region-header .site-branding {
+    flex-flow: column;
+    text-align: center;
+  }
+}
 #header .site-branding__text a {
   color: #0026F5;
   font-size: 0.9em;

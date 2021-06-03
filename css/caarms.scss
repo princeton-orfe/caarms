@@ -12,6 +12,13 @@ body {
 	background-image: $hdr-bg-image;
 	padding: 1.5em 1em 1.5em 1em;
 	
+	.region-header .site-branding {
+		@media (max-width: $breakpoint) {
+			flex-flow: column;
+			text-align: center;
+		}
+	}
+	
 	.site-branding__text {
 		a {
 		color:#0026F5;
