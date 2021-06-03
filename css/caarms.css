@@ -65,6 +65,10 @@ body {
   flex-grow: 1;
   text-align: center;
 }
+.path-frontpage .view-all-sessions .day-theme-and-date .themelabel {
+  color: red;
+  font-weight: bold;
+}
 .path-frontpage .view-all-sessions .day-theme-and-date .titletheme {
   font-size: 2em;
 }

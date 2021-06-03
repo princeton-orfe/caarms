@@ -80,6 +80,10 @@ body {
 	.day-theme-and-date {
 		flex-grow: 1;
 		text-align: center;
+		.themelabel {
+			color: red;
+			font-weight: bold;
+		}
 		.titletheme {
 			font-size: 2em;
 			a {
