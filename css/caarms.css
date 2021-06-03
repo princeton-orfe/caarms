@@ -32,7 +32,7 @@ body {
 }
 
 #menubar .menu--main {
-  background-color: lightgray;
+  background-color: #f2f2f2;
 }
 #menubar .menu--main a {
   color: blue;
@@ -44,8 +44,13 @@ body {
 }
 
 .site-footer {
+  background: #f2f2f2;
   padding: 1em 0 1em 0;
 }
+.site-footer .content a {
+  color: red;
+}
+
 .site-footer__bottom {
   margin-top: 0;
   border-top: none;

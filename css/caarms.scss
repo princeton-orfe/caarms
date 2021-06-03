@@ -1,5 +1,5 @@
 $menu-link-color: blue;
-$menu-bg-color: lightgray;
+$menu-bg-color: rgb(242, 242, 242);
 $adm-menu-bg-color: rgb(255, 238, 205);
 $hdr-bg-image: none;
 $breakpoint: 840px;
@@ -59,8 +59,10 @@ body {
 }
 
 .site-footer {
+	background: rgb(242, 242, 242);
 	padding: 1em 0 1em 0;
 	.content a {
+		color: rgba(255, 0, 0);
 	}
 }
 
