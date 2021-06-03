@@ -7,14 +7,18 @@ body {
   padding: 1.5em 1em 1.5em 1em;
 }
 #header .site-branding__text a {
-  text-shadow: 0px 1px #e77550;
-  color: red;
+  color: #0026F5;
+  font-size: 0.9em;
 }
 #header .site-branding__text a .site-branding__name {
   font-size: 2.75em;
 }
 #header .site-branding__text a .site-branding__slogan {
   font-size: 1.25em;
+  font-style: normal;
+  padding-top: 3px;
+  margin-top: 0;
+  border-top: 3px solid red;
 }
 
 #menubar {
