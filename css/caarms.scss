@@ -2,7 +2,7 @@ $menu-link-color: #6c0000;
 $menu-bg-color: white;
 $adm-menu-bg-color: rgb(255, 238, 205);
 $hdr-bg-image: none;
-$breakpoint: 720px;
+$breakpoint: 840px;
 
 body {
 	background: white;
@@ -83,12 +83,13 @@ body {
 		.titletheme {
 			font-size: 2em;
 			a {
-				color: #800000;
+				color: #0026F5;
 			}
 		}
 		.day-datetime {
 			font-size: 1.5em;
-			color: gray;
+			color: black;
+			font-weight: bold;
 		}
 	}
 
