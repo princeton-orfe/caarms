@@ -1,5 +1,5 @@
-$menu-link-color: #6c0000;
-$menu-bg-color: white;
+$menu-link-color: blue;
+$menu-bg-color: lightgray;
 $adm-menu-bg-color: rgb(255, 238, 205);
 $hdr-bg-image: none;
 $breakpoint: 840px;
@@ -45,9 +45,6 @@ body {
 
 #menubar {
 
-	border-image: linear-gradient(to left,white 1%,#ffe489 100%) 100% 0 100% 0/3px 0 3px 0 stretch;
-	border-bottom: 3px solid #ffe489;
-
 	.menu--main {
 		background-color: $menu-bg-color;
 		 a {
@@ -62,10 +59,8 @@ body {
 }
 
 .site-footer {
-	background-image: linear-gradient(to right,#ffe489 0%,#ffffff 100%);
 	padding: 1em 0 1em 0;
 	.content a {
-	color: rgba(175, 0, 0, 0.8);
 	}
 }
 
@@ -103,7 +98,7 @@ body {
 	}
 
 	>.view-content>.date-listing{
-		border-image: linear-gradient(to left,white 1%,#ffe489 100%) 0% 0 100% 0/1px 0 3px 0 stretch;
+		border-bottom: 3px solid red;
 		padding-bottom: 1em;
 		display: flex;
 		align-items: center;

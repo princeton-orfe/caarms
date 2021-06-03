@@ -31,15 +31,11 @@ body {
   color: #F17816;
 }
 
-#menubar {
-  border-image: linear-gradient(to left, white 1%, #ffe489 100%) 100% 0 100% 0/3px 0 3px 0 stretch;
-  border-bottom: 3px solid #ffe489;
-}
 #menubar .menu--main {
-  background-color: white;
+  background-color: lightgray;
 }
 #menubar .menu--main a {
-  color: #6c0000;
+  color: blue;
 }
 
 #branding {
@@ -48,13 +44,8 @@ body {
 }
 
 .site-footer {
-  background-image: linear-gradient(to right, #ffe489 0%, #ffffff 100%);
   padding: 1em 0 1em 0;
 }
-.site-footer .content a {
-  color: rgba(175, 0, 0, 0.8);
-}
-
 .site-footer__bottom {
   margin-top: 0;
   border-top: none;
@@ -85,7 +76,7 @@ body {
   flex-basis: 60%;
 }
 .path-frontpage .view-all-sessions > .view-content > .date-listing {
-  border-image: linear-gradient(to left, white 1%, #ffe489 100%) 0% 0 100% 0/1px 0 3px 0 stretch;
+  border-bottom: 3px solid red;
   padding-bottom: 1em;
   display: flex;
   align-items: center;
