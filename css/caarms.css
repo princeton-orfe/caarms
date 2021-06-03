@@ -3,17 +3,17 @@ body {
 }
 
 #header {
-  background-image: linear-gradient(to right, #ffe489 0%, #ffffff 100%);
+  background-image: none;
   padding: 1.5em 1em 1.5em 1em;
 }
 #header .site-branding__text a {
   color: #0026F5;
   font-size: 0.9em;
 }
-#header .site-branding__text a .site-branding__name {
+#header .site-branding__text .site-branding__name {
   font-size: 2.75em;
 }
-#header .site-branding__text a .site-branding__slogan {
+#header .site-branding__text .site-branding__slogan {
   font-size: 1.25em;
   font-style: normal;
   padding-top: 3px;
