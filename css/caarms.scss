@@ -1,7 +1,7 @@
 $menu-link-color: #6c0000;
 $menu-bg-color: white;
 $adm-menu-bg-color: rgb(255, 238, 205);
-$hdr-bg-image: linear-gradient(to right,#ffe489 0%,#ffffff 100%);
+$hdr-bg-image: none;
 $breakpoint: 720px;
 
 body {
@@ -12,9 +12,11 @@ body {
 	background-image: $hdr-bg-image;
 	padding: 1.5em 1em 1.5em 1em;
 	
-	.site-branding__text a {
+	.site-branding__text {
+		a {
 		color:#0026F5;
 		font-size: 0.9em;
+		}
 	.site-branding__name {
 		font-size: 2.75em;
 	}
