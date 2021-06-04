@@ -131,6 +131,27 @@ h2.field-content.session-datetime {
 	margin-top: 0;
 }
 
+.dateandtheme .views-row {
+	display: flex;
+	align-items: baseline;
+	h2 {
+		margin-top: 0;
+	}
+	.views-field-field-event-date {
+		color: blue;
+		width: 20%;
+	}
+	.views-field-field-conference-day-theme {
+		font-size: 1.35em;
+		.themelabel {
+			color: red;
+		}
+		.themetitle {
+			color: blue;
+		}
+	}
+}
+
 .views-field-field-session-des {
 	margin: 2em;
 	padding: 2em;
@@ -175,28 +196,7 @@ h2.field-content.session-datetime {
 	}
 }
 
-.node--type-event-date, .page-node-type-event-date {
-
-	.dateandtheme .views-row {
-		display: flex;
-		align-items: baseline;
-		h2 {
-			margin-top: 0;
-		}
-		.views-field-field-event-date {
-			color: blue;
-			width: 20%;
-		}
-		.views-field-field-conference-day-theme {
-			font-size: 1.35em;
-			.themelabel {
-				color: red;
-			}
-			.themetitle {
-				color: blue;
-			}
-		}
-	}
+.node--type-event-date {
 
 	.field--type-datetime, .field--type-string, .field--type-link, .field--type-time, .field--type-list-string {
 		margin-bottom: 1em;
