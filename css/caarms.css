@@ -114,24 +114,21 @@ h2.field-content.session-datetime {
   margin-top: 0;
 }
 
-.dateandtheme .views-row {
+.dateandtheme.views-row {
   display: flex;
   align-items: baseline;
 }
-.dateandtheme .views-row h2 {
-  margin-top: 0;
-}
-.dateandtheme .views-row .views-field-field-event-date {
+.dateandtheme.views-row .views-field-field-event-date {
+  min-width: 20%;
   color: blue;
-  width: 20%;
 }
-.dateandtheme .views-row .views-field-field-conference-day-theme {
+.dateandtheme.views-row .views-field-field-conference-day-theme {
   font-size: 1.35em;
 }
-.dateandtheme .views-row .views-field-field-conference-day-theme .themelabel {
+.dateandtheme.views-row .views-field-field-conference-day-theme .themelabel {
   color: red;
 }
-.dateandtheme .views-row .views-field-field-conference-day-theme .themetitle {
+.dateandtheme.views-row .views-field-field-conference-day-theme .themetitle {
   color: blue;
 }
 

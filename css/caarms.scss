@@ -131,22 +131,19 @@ h2.field-content.session-datetime {
 	margin-top: 0;
 }
 
-.dateandtheme .views-row {
+.dateandtheme.views-row {
 	display: flex;
 	align-items: baseline;
-	h2 {
-		margin-top: 0;
-	}
-	.views-field-field-event-date {
+	.views-field-field-event-date{
+		min-width: 20%;
 		color: blue;
-		width: 20%;
 	}
-	.views-field-field-conference-day-theme {
+	.views-field-field-conference-day-theme{
 		font-size: 1.35em;
-		.themelabel {
+		.themelabel{
 			color: red;
 		}
-		.themetitle {
+		.themetitle{
 			color: blue;
 		}
 	}
