@@ -127,6 +127,17 @@ body {
   min-width: 30%;
 }
 
+.view-session > .view-content > .views-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.view-session > .view-content > .views-row .sessionduration {
+  min-width: 30%;
+}
+.view-session > .view-content > .views-row .views-field-field-session-title {
+  width: 70%;
+}
+
 .views-field-field-session-title {
   font-size: 1.35em;
   font-weight: bold;

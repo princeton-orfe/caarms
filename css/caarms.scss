@@ -144,6 +144,17 @@ font-size: 2em;
 	}
 }
 
+.view-session>.view-content>.views-row{
+	display: flex;
+	flex-wrap: wrap;
+	.sessionduration{
+		min-width: 30%;
+	}
+	.views-field-field-session-title{
+		width: 70%;
+	}
+}
+
 .views-field-field-session-title {
 	font-size: 1.35em;
 	font-weight: bold;
