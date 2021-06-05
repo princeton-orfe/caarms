@@ -137,6 +137,13 @@ font-size: 2em;
 	font-weight: bold;
 }
 
+.participantinfo.views-row {
+	display:flex;
+	.views-field-field-participant-photo {
+		min-width: 30%;
+	}
+}
+
 .views-field-field-session-title {
 	font-size: 1.35em;
 	font-weight: bold;
