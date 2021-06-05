@@ -138,6 +138,14 @@ body {
   width: 70%;
 }
 
+.views-field.views-field-field-participant-photo > .field-content {
+  max-width: 90%;
+}
+
+.view-session > .view-content > .views-row > .views-field.views-field-view {
+  padding: 1em 0 1em 0;
+}
+
 .views-field-field-session-title {
   font-size: 1.35em;
   font-weight: bold;
