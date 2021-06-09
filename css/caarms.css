@@ -47,6 +47,10 @@ table {
   margin: 0 auto;
 }
 
+.webform-submission-caarms2021-registration-form .webform-flexbox {
+  flex-flow: column;
+}
+
 .site-footer {
   background: #f2f2f2;
   padding: 1em 0 1em 0;
