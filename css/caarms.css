@@ -2,6 +2,10 @@ body {
   background: white;
 }
 
+table {
+  font-size: 1.1em;
+}
+
 #header {
   background-image: none;
   padding: 1.5em 1em 1.5em 1em;
