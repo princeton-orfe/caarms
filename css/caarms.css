@@ -266,7 +266,7 @@ h2.field-content.session-datetime {
 }
 
 .form-item-friday-june-18th:first-child > .description {
-  display: inline;
+  display: inline-block;
   font-size: 1em;
 }
 
