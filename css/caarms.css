@@ -271,9 +271,11 @@ h2.field-content.session-datetime {
   margin-left: 0.5em;
 }
 
-.node-type-event-date .node--type-event-date > div {
-  display: flex;
-  flex-flow: column;
+@media (max-width: 840px) {
+  .node--type-event-date > div {
+    display: flex;
+    flex-flow: column;
+  }
 }
 
 /*# sourceMappingURL=caarms.css.map */

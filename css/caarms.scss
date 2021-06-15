@@ -295,7 +295,7 @@ font-size: 1em;
 margin-left: 0.5em;
 }
 
-.node-type-event-date {
+@media (max-width: $breakpoint) {
 	.node--type-event-date > div {
 display: flex;
 flex-flow: column;
