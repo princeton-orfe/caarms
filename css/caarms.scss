@@ -295,7 +295,9 @@ font-size: 1em;
 margin-left: 0.5em;
 }
 
-.node-type-event-date article.node--type-event-date > div {
+.node-type-event-date {
+	.node--type-event-date > div {
 display: flex;
 flex-flow: column;
+}
 }
