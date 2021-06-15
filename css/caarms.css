@@ -265,4 +265,9 @@ h2.field-content.session-datetime {
   font-size: 1.071em;
 }
 
+.form-item-friday-june-18th > .description:first-child {
+  display: inline;
+  font-size: 1em;
+}
+
 /*# sourceMappingURL=caarms.css.map */
