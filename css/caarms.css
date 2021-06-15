@@ -265,9 +265,10 @@ h2.field-content.session-datetime {
   font-size: 1.071em;
 }
 
-.form-item-friday-june-18th:first-child > .description {
+.form-item-friday-june-18th:first-child > .description, .form-item-friday-june-25th:first-child > .description, .form-item-_-2-data-driven-decision-making:first-child > .description, .form-item-_-9-quantum-materials-quantum-computing-transportation-infrastru:first-child > .description {
   display: inline-block;
   font-size: 1em;
+  margin-left: 0.5em;
 }
 
 /*# sourceMappingURL=caarms.css.map */
