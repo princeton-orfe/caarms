@@ -277,7 +277,7 @@ h2.field-content.session-datetime {
     flex-flow: column;
   }
 }
-@media (max-width: 840px) {
+@media (min-width: 840px) {
   .views-field.views-field-field-session-description {
     padding-top: 1em;
     padding-left: 20%;
