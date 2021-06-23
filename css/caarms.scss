@@ -301,3 +301,10 @@ display: flex;
 flex-flow: column;
 }
 }
+
+@media (max-width: $breakpoint) {
+	.views-field.views-field-field-session-description {
+		padding-top: 1em;
+		padding-left: 20%;
+	}
+}
