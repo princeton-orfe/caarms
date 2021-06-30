@@ -164,6 +164,9 @@ font-size: 2em;
 	}
 	.views-field-field-session-title{
 		width: 70%;
+		@media (max-width: $breakpoint) {
+			width: 100%;
+		}
 	}
 }
 

@@ -149,6 +149,11 @@ h3, .heading-c {
 .view-session > .view-content > .views-row .views-field-field-session-title {
   width: 70%;
 }
+@media (max-width: 840px) {
+  .view-session > .view-content > .views-row .views-field-field-session-title {
+    width: 100%;
+  }
+}
 
 .views-field.views-field-field-participant-photo > .field-content {
   max-width: 90%;
