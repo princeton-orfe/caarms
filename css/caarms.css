@@ -283,5 +283,8 @@ h2.field-content.session-datetime {
     padding-left: 28%;
   }
 }
+.view-session > .view-content > .views-row > .views-field.views-field-view {
+  width: 100%;
+}
 
 /*# sourceMappingURL=caarms.css.map */
