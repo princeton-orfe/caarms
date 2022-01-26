@@ -16,6 +16,12 @@ h3, .heading-c {
 	font-weight: bold;
 }
 
+#header .region-header .site-branding {
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+}
+
 #header {
 	background-image: $hdr-bg-image;
 	padding: 1.5em 1em 1.5em 1em;
