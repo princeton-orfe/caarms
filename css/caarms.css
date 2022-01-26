@@ -47,8 +47,8 @@ h3, .heading-c {
 }
 
 #branding {
-  max-width: 1290px;
   margin: 0 auto;
+  max-width: initial;
 }
 
 .webform-submission-caarms2021-registration-form .webform-flexbox {
