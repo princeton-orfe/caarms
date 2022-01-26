@@ -65,11 +65,11 @@ h3, .heading-c {
 }
 
 .site-footer {
-  background: #f2f2f2;
+  background: black;
   padding: 1em 0 1em 0;
 }
 .site-footer .content a {
-  color: #2200ff;
+  color: white;
 }
 
 .site-footer__bottom {
