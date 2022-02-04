@@ -20,6 +20,9 @@ h3, .heading-c {
   background-image: none;
   padding: 1.5em 1em 1.5em 1em;
 }
+#header .site-branding__logo {
+  max-width: 300px;
+}
 @media (max-width: 840px) {
   #header .region-header .site-branding {
     flex-flow: column;
