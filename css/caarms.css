@@ -35,15 +35,19 @@ h3, .heading-c {
 }
 #header .site-branding__text .site-branding__name {
   font-size: 2.75em;
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: auto;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap;
+}
+@media (max-width: 840px) {
+  #header .site-branding__text .site-branding__name {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+  }
 }
 #header .site-branding__text .site-branding__slogan {
   color: #0026F5;
