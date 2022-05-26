@@ -10,6 +10,10 @@ h3, .heading-c {
   font-weight: bold;
 }
 
+#header {
+  padding: 0;
+}
+
 #header .region-header .site-branding {
   display: flex;
   align-items: center;
