@@ -16,10 +16,6 @@ h3, .heading-c {
 	font-weight: bold;
 }
 
-#header { 
-	padding: 0;
-}
-
 #header .region-header .site-branding {
     display: flex;
     align-items: center;
@@ -31,8 +27,7 @@ h3, .heading-c {
 		max-width: 300px;
 	}
 	background-image: $hdr-bg-image;
-	padding: 1.5em 1em 1.5em 1em;
-	
+	padding: 0;	
 	.region-header .site-branding {
 		@media (max-width: $breakpoint) {
 			flex-flow: column;

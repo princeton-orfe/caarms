@@ -10,10 +10,6 @@ h3, .heading-c {
   font-weight: bold;
 }
 
-#header {
-  padding: 0;
-}
-
 #header .region-header .site-branding {
   display: flex;
   align-items: center;
@@ -22,7 +18,7 @@ h3, .heading-c {
 
 #header {
   background-image: none;
-  padding: 1.5em 1em 1.5em 1em;
+  padding: 0;
 }
 #header .site-branding__logo {
   max-width: 300px;
