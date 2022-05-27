@@ -7,6 +7,24 @@ $breakpoint: 840px;
 body {
 	background-color: black;
 }
+	
+@media (max-width: $breakpoint){
+	.field.field--name-field-image-demo.field--type-image {
+		margin: 0 auto;
+	}	
+
+	.title.page-title {
+		text-align: center;
+	}
+
+	.field--type-image img {
+		margin: 0;
+	}	
+
+	h3 {
+		margin: 0em 0 1em;
+	}
+}
 
 .field--type-image {
 	max-width: 300px;
