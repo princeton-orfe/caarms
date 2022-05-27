@@ -17,6 +17,7 @@ body {
 
   h3 {
     margin: 0em 0 1em;
+    text-align: center;
   }
 }
 .field--type-image {
