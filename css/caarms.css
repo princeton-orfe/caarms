@@ -2,6 +2,19 @@ body {
   background-color: black;
 }
 
+.node--unpublished {
+  border: 1px dotted hotpink;
+}
+.node--unpublished :before {
+  content: "Unpublished";
+  position: absolute;
+  margin-top: -31px;
+  background-color: white;
+  padding: 0 5px 0 5px;
+  color: hotpink;
+  font-weight: bold;
+}
+
 @media (max-width: 840px) {
   .field.field--name-field-image-demo.field--type-image {
     margin: 0 auto;

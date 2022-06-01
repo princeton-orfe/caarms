@@ -7,6 +7,21 @@ $breakpoint: 840px;
 body {
 	background-color: black;
 }
+
+.node--unpublished {
+	border: 1px dotted hotpink;
+	:before {
+		content: 'Unpublished';
+		position: absolute;
+		margin-top: -31px;
+		background-color: white;
+		padding: 0 5px 0 5px;
+		color: hotpink;
+		font-weight: bold;
+	}
+}
+
+
 	
 @media (max-width: $breakpoint){
 	.field.field--name-field-image-demo.field--type-image {
