@@ -10,15 +10,16 @@ body {
 
 .node--unpublished {
 	border: 1px dotted hotpink;
-	:before {
-		content: 'Unpublished';
-		position: absolute;
-		margin-top: -31px;
-		background-color: white;
-		padding: 0 5px 0 5px;
-		color: hotpink;
-		font-weight: bold;
-	}
+}
+
+.node--unpublished:before {
+                content: 'Unpublished';
+                position: absolute;
+                margin-top: -31px;
+                background-color: white;
+                padding: 0 5px 0 5px;
+                color: hotpink;
+                font-weight: bold;
 }
 
 
