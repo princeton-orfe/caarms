@@ -2,6 +2,26 @@ body {
   background-color: black;
 }
 
+.view-speaker-grid ul {
+  display: flex;
+}
+@media (max-width: 840px) {
+  .view-speaker-grid ul {
+    flex-flow: column;
+  }
+}
+
+.view-speaker-grid ul li {
+  min-width: 50%;
+}
+.view-speaker-grid ul li .field--type-image img, .view-speaker-grid ul li .field--name-user-picture img {
+  margin: 0;
+}
+.view-speaker-grid ul li h3 {
+  font-size: 1em;
+  text-align: center;
+}
+
 .node--unpublished {
   border: 1px dotted hotpink;
   background-color: white;

@@ -8,6 +8,24 @@ body {
 	background-color: black;
 }
 
+.view-speaker-grid ul {
+	display: flex;
+	@media (max-width: $breakpoint){
+		flex-flow: column;
+	}
+}
+
+.view-speaker-grid ul li {
+	min-width: 50%;
+	.field--type-image img, .field--name-user-picture img {
+		margin: 0;
+	}
+	h3 {
+		font-size: 1em;
+		text-align: center;
+	}
+}
+
 .node--unpublished {
 	border: 1px dotted hotpink;
 	background-color: white;
