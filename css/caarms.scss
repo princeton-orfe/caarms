@@ -8,6 +8,10 @@ body {
 	background-color: black;
 }
 
+.node--type-headshot .node__content {
+	display: flex;
+}
+
 .view-speaker-grid ul {
 	display: flex;
 	@media (max-width: $breakpoint){
