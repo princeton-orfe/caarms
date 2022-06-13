@@ -9,6 +9,11 @@ body {
 .node--type-headshot .node__content {
   display: flex;
 }
+@media (max-width: 840px) {
+  .node--type-headshot .node__content {
+    flex-flow: column;
+  }
+}
 
 .view-speaker-grid ul {
   display: flex;

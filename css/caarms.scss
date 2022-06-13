@@ -14,6 +14,9 @@ body {
 
 .node--type-headshot .node__content {
 	display: flex;
+	@media (max-width: $breakpoint) {
+		flex-flow: column;
+	}
 }
 
 .view-speaker-grid ul {
