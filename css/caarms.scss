@@ -75,6 +75,9 @@ body {
 
 .field--type-image {
 	max-width: 300px;
+	@media (max-width: $breakpoint) {
+		max-width: initial;
+	}
 }
 
 .responsive-menus.responsive-menus-0-0.absolute {
