@@ -2,6 +2,10 @@ body {
   background-color: black;
 }
 
+.node .field--type-image {
+  min-width: 300px;
+}
+
 .node--type-headshot .node__content {
   display: flex;
 }
